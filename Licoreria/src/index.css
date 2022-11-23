@@ -1,0 +1,20 @@
+#main .carousel-inner img{
+    max-height: 75vh;
+    object-fit: cover;
+}
+
+#carousel .overlay{
+    background: #0000007f;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}

@@ -1,0 +1,10 @@
+section#productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+section#productos .tarjeta{
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
